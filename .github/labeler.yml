@@ -1,6 +1,4 @@
-develop
-- any:
+develop:
   - head-branch: ['develop']
-prod
-- any:
+prod:
   - head-branch: ['master']
