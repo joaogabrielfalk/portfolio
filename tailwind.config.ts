@@ -40,7 +40,11 @@ const config: Config = {
       'thin': '100',
       'regular': '400',
       'extra-bold': '800',
-    }
+    },
+    fontFamily: {
+      display: ['Encode Sans Semi Condensed', 'sans-serif'],
+      body: ['Jost', 'sans-serif'],
+    },
   },
   plugins: [],
 };
