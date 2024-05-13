@@ -1,0 +1,6 @@
+{
+    "name": "@jf/core-button",
+    "version": "0.1.0",
+    "description": "Button component for JF Core",
+    "main": "./index.tsx"
+}
