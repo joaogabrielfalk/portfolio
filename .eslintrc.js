@@ -1,13 +1,6 @@
 module.exports = {
   parser: '@typescript-eslint/parser',
-  extends: [
-    'plugin:@typescript-eslint/recommended',
-    'plugin:import/errors',
-    'plugin:import/typescript',
-    'plugin:prettier/recommended',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
-  ],
+  extends: ['plugin:@typescript-eslint/recommended', 'plugin:import/errors', 'plugin:import/typescript', 'plugin:prettier/recommended', 'plugin:react/recommended', 'plugin:react-hooks/recommended', 'plugin:storybook/recommended'],
   ignorePatterns: ['**/node_modules/**', '**/dist/**', '**/.next/**'],
   parserOptions: {
     ecmaVersion: 2021,
