@@ -1,4 +1,10 @@
+bug:
+  - head-branch: ['fix/*']
+config:
+  - head-branch: ['config/*']
+enhancement:
+  - head-branch: ['feat/*']
 develop:
-  - head-branch: ['develop']
-prod:
-  - head-branch: ['master']
+  - base-branch: ['develop']
+main:
+  - base-branch: ['main']
